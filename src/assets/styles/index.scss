@@ -1,0 +1,28 @@
+// ***************************
+// Put here some global styles
+// ***************************
+
+@import "normalize.css";
+@import "colors.scss";
+
+html {
+  font-size: 10px;
+  background-color: $greyLight;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
